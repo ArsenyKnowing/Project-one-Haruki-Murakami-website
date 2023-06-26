@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+/*Main title "Haruki Murakami*/
+.header {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #0a0b0d;
+  height: 4%;
+  font-family: "Righteous"; /*Google шрифт*/
+}
+
+/*Main content*/
+.p-box {
+  padding-top: 4%;
+}
+
+.big-boss {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #000000;
+}
+.boss {
+  display: flex;
+  height: 100vh;
+  align-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 50%;
+}
+
+/*All boxs*/
+.all-box {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Amatic SC", cursive; /*Google шрифт(2)*/
+}
+.all-box {
+  height: 33.33%;
+  width: 50%;
+  text-align: center;
+}
+
+/*Upper block*/
+.oneUp {
+  background-color: #ffffff;
+  font-family: "Righteous"; /*Google шрифт*/
+}
+.oneUp {
+  font-size: 9px;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  height: 39%;
+  background-image: url(images/dropsDackground.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+}
+
+.oneUp-p {
+  padding-top: 0%;
+}
+
+/*Site menu*/
+.one {
+  background: #d35a3f;
+  color: #2b2927;
+  transition: all linear 0.5s; /*Возвращение прежнего состояние после анимации*/
+  border: 10px solid #d35a3f;
+  border-style: groove;
+  text-shadow: 1px 1px 2px black; /*Тень текста*/
+}
+
+.one:hover {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  border: none;
+  transition: 1s linear;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+  text-shadow: 4px 4px 5px black; /*Тень текста*/
+}
+.two {
+  background: #494544;
+  color: #81bcb4;
+  transition: all linear 0.5s; /*Возвращение прежнего состояние после анимации*/
+  border: 10px solid #494544;
+  border-style: groove;
+  text-shadow: 1px 1px 2px black; /*Тень текста*/
+}
+
+.two:hover {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  border: none;
+  transition: 1s linear;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+  text-shadow: 4px 4px 5px black; /*Тень текста*/
+}
+.three {
+  background: #81bcb4;
+  color: #dcdbd7;
+  transition: all linear 0.5s; /*Возвращение прежнего состояние после анимации*/
+  border: 10px solid #81bcb4;
+  border-style: groove;
+  text-shadow: 1px 1px 2px black; /*Тень текста*/
+}
+
+.three:hover {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  border: none;
+  transition: 1s linear;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+  text-shadow: 4px 4px 5px black; /*Тень текста*/
+}
+.four {
+  background-color: #dcdbd7;
+  color: #2b2927;
+  transition: all linear 0.5s; /*Возвращение прежнего состояние после анимации*/
+  border: 10px solid #dcdbd7;
+  border-style: groove;
+  text-shadow: 1px 1px 2px black; /*Тень текста*/
+}
+
+.four:hover {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  border: none;
+  transition: 1s linear;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+  text-shadow: 4px 4px 5px black; /*Тень текста*/
+}
+.five {
+  background-image: url(images/1.jpg);
+  color: #dcdbd7;
+  transition: all linear 0.5s; /*Возвращение прежнего состояние после анимации*/
+  border: 10px solid rgb(6, 6, 6);
+  border-style: groove;
+  text-shadow: 1px 1px 2px black; /*Тень текста*/
+}
+
+.five:hover {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  border: none;
+  transition: 1s linear;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+  text-shadow: 4px 4px 5px black; /*Тень текста*/
+}
+.six {
+  background-color: #2b2927;
+  color: #d35a3f;
+  transition: all linear 0.5s; /*Возвращение прежнего состояние после анимации*/
+  border: 10px solid #2b2927;
+  border-style: groove;
+  text-shadow: 1px 1px 2px black; /*Тень текста*/
+}
+
+.six:hover {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  border: none;
+  transition: 1s linear;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+  text-shadow: 4px 4px 5px black; /*Тень текста*/
+}
+
+/*Links (colors)*/
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+.oneS {
+  color: #2b2927;
+}
+.twoS {
+  color: #81bcb4;
+}
+.threeS {
+  color: #dcdbd7;
+}
+.fourS {
+  color: #2b2927;
+}
+.fiveS {
+  color: #dcdbd7;
+}
+.sixS {
+  color: #d35a3f;
+}
+
+/*Footer*/
+.footer {
+  color: #fff;
+  text-align: center;
+  background-color: #000000;
+  height: 7%;
+}
+.logo-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  transition: all linear 0.5s;
+}
+.logo:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+}
+.logo1 {
+  width: 60px;
+  height: 40px;
+  transition: all linear 0.5s;
+  margin-right: 10px;
+}
+.logo1:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+}
+/*Logo shaking animation*/
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.logoLink {
+  height: 7%;
+  width: auto;
+}
+p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/*Footer text*/
+.textFooter1 {
+  color: #5f5c5a;
+  font-family: "Righteous"; /*Google шрифт*/
+  padding-top: 1%;
+  padding-left: 1%;
+  text-align: left;
+}
+.textFooter2 {
+  color: #5f5c5a;
+  font-family: "Righteous"; /*Google шрифт*/
+  padding-top: 1%;
+  padding-right: 1%;
+  text-align: right;
+}
+
+/*Site adaptation*/
+@media (max-width: 800px) {
+  .footer {
+    height: 12%;
+  }
+  .p-box {
+    padding-top: 10%;
+    font-size: 15px;
+  }
+  .long {
+    padding-top: 5.5%;
+  }
+}

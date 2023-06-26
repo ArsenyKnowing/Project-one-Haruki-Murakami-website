@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+/*Main title "Haruki Murakami"*/
+.header {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #0a0b0d;
+  height: 4%;
+  font-family: "Righteous"; /*Google шрифт*/
+}
+
+/*Title "Film adaptations"*/
+.oneUp {
+  background-color: #ffffff;
+  font-family: "Righteous"; /*Google шрифт*/
+}
+.oneUp {
+  font-size: 80px;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  text-shadow: 4px 4px 5px black; /*Тень текста*/
+}
+
+/*  Site markup */
+.big-boss {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.boss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-box {
+  height: 100%;
+  width: 20%;
+}
+
+/*All boxs*/
+.all-box {
+  font-size: 17px;
+  text-align: center;
+  font-family: "Righteous"; /*Google шрифт*/
+}
+
+/*Чтобы работала ссылка при нажатии на весь блок*/
+.IMDb1 {
+  /*Убирает подчеркивание у ссылки*/
+  text-decoration: none;
+  /*Стили*/
+  font-size: 17px;
+  text-align: center;
+  font-family: "Righteous";
+  color: black;
+  /*Размер*/
+  width: 100%;
+  height: 100%;
+  transition: all linear 3s; /*Возвращает прежнее состояние после анимации*/
+}
+
+/*Этот класс нужен, чтобы ссылки работали вместе с черным фоном для шрифта*/
+.a {
+  width: 100%;
+  height: 100%;
+}
+.p {
+  /*Черный фон для шрифта*/
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: -10px 0 0 rgba(0, 0, 0, 0.9), 10px 0 0 rgba(0, 0, 0, 0.9);
+  color: #d2d0d0;
+  line-height: 14px;
+}
+
+/*Boxs (filmo)*/
+.one {
+  background-image: url(images/FILMS/1.jpeg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращает прежнее состояние после анимации*/
+  border-style: inset;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.one:hover {
+  border: 10px solid rgb(0, 0, 0);
+  transition: 0.2s linear;
+  border-style: inset;
+}
+
+.two {
+  background-image: url(images/FILMS/2.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращает прежнее состояние после анимации*/
+  border-style: inset;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.two:hover {
+  border: 10px solid rgb(0, 0, 0);
+  transition: 0.2s linear;
+  border-style: inset;
+}
+
+.three {
+  background-image: url(images/FILMS/3.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращает прежнее состояние после анимации*/
+  border-style: inset;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.three:hover {
+  border: 10px solid rgb(0, 0, 0);
+  transition: 0.2s linear;
+  border-style: inset;
+}
+
+.four {
+  background-image: url(images/FILMS/4.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращает прежнее состояние после анимации*/
+  border-style: inset;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.four:hover {
+  border: 10px solid rgb(0, 0, 0);
+  transition: 0.2s linear;
+  border-style: inset;
+}
+
+.five {
+  background-image: url(images/FILMS/5.png);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращает прежнее состояние после анимации*/
+  border-style: inset;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.five:hover {
+  border: 10px solid rgb(0, 0, 0);
+  transition: 0.2s linear;
+  border-style: inset;
+}
+
+/*Footer*/
+.footer {
+  color: #fff;
+  text-align: center;
+  background-color: #000000;
+  height: 7%;
+}
+.logo-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  transition: all linear 0.5s;
+}
+.logo:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+}
+.logo1 {
+  width: 60px;
+  height: 40px;
+  transition: all linear 0.5s;
+  margin-right: 10px;
+}
+.logo1:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+}
+
+/*Logo shaking animation*/
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.logoLink {
+  height: 7%;
+  width: auto;
+}
+p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/*Footer text*/
+.textFooter1 {
+  color: #5f5c5a;
+  font-family: "Righteous"; /*Google шрифт*/
+  padding-top: 1%;
+  padding-left: 1%;
+  text-align: left;
+}
+.textFooter2 {
+  color: #5f5c5a;
+  font-family: "Righteous"; /*Google шрифт*/
+  padding-top: 1%;
+  padding-right: 1%;
+  text-align: right;
+}
+
+/*Site adaptation*/
+@media (max-width: 800px) {
+  .all-box {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+  }
+}

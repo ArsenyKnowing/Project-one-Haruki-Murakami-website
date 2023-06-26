@@ -1,0 +1,626 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+/*Main content height*/
+.big-boss {
+  height: 93%; /*7% for footer*/
+}
+
+/*Main title "Haruki Murakami"*/
+.header {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #0a0b0d;
+  height: 4%;
+  font-family: "Righteous"; /*Google шрифт*/
+}
+h4 {
+  height: auto;
+}
+
+/*Title "Books"*/
+.oneUp {
+  background-color: #ffffff;
+  font-family: "Righteous"; /*Google шрифт*/
+}
+.oneUp {
+  font-size: 80px;
+  color: #020202;
+  text-align: center;
+  width: 100%;
+  height: 25%;
+  text-shadow: 2px 2px 4px black; /*Тень текста*/
+}
+
+/*All books*/
+.all-box {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Righteous"; /*Google шрифт*/
+}
+/*Размеры и отступы всех блоков*/
+.all-box {
+  height: 68%;
+  width: 8%;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 0;
+}
+
+/*Books*/
+.one {
+  background-image: url(images/BIBLIOGRAPHY/The\ Wind-Up\ Bird\ Chronicle.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.one:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+
+.two {
+  background-image: url(images/BIBLIOGRAPHY/South\ of\ the\ Border\,\ West\ of\ the\ Sun.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.two:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+.three {
+  background-image: url(images/BIBLIOGRAPHY/Kafka\ on\ the\ Shore.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.three:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+.four {
+  background-image: url(images/BIBLIOGRAPHY/Hard-Boiled\ Wonderland\ and\ the\ End\ of\ the\ World.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.four:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+.five {
+  background-image: url(images/BIBLIOGRAPHY/Norwegian\ Wood.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.five:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+.six {
+  background-image: url(images/BIBLIOGRAPHY/A\ Wild\ Sheep\ Chase.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.six:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+.seven {
+  background-image: url(images/BIBLIOGRAPHY/1Q84.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.seven:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+.eight {
+  background-image: url(images/BIBLIOGRAPHY/Killing\ Commendatore.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.eight:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+.nine {
+  background-image: url(images/BIBLIOGRAPHY/Dance\ Dance\ Dance.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.nine:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+.ten {
+  background-image: url(images/BIBLIOGRAPHY/After\ Dark.jpg);
+  border: 2px solid black;
+  transition: all linear 0.2s; /*Возвращение прежнего состояние после анимации*/
+  border-style: double;
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  border-radius: 3%;
+  box-shadow: 0 0 5px 2px; /*Тень*/
+}
+.ten:hover {
+  border: 15px solid rgb(0, 0, 0);
+  transition: 0.5s linear;
+  border-style: double;
+}
+
+/*Modal windows*/
+.itc-modal {
+  height: 0; /*Позволяет не выдавливать html разметку*/
+}
+.itc-modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(0 0 0 / 65%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in; /*Продолжительность анимации */
+  pointer-events: none;
+}
+
+.itc-modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 10px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgb(0 0 0 / 20%);
+  border-radius: 0.3rem;
+  box-shadow: 0 0 7px 0 rgb(0 0 0 / 30%);
+  transition: all 0.3s ease-in; /*Продолжительность анимации */
+  opacity: 0;
+  transform: perspective(600px) translate(0px, -100%) rotateX(45deg); /*Анимация "спуска" модального окна (открытие окна)*/
+}
+
+@media (min-width: 576px) {
+  .itc-modal-content {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 50px auto;
+  }
+}
+
+.itc-modal-show .itc-modal-backdrop,
+.itc-modal-show .itc-modal-content {
+  transform: perspective(600px) translate(0px, -0px) rotateX(0deg); /*Анимация "спуска" модального окна (закрытие окна)*/
+  overflow-y: auto;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.itc-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eceeef;
+  height: 15px;
+}
+
+.itc-modal-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  height: 15px;
+}
+
+.itc-modal-btn-close {
+  float: right;
+  color: #000;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: sans-serif;
+  line-height: 1;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  height: 15px;
+}
+button {
+  height: 25px;
+  width: 100%;
+}
+
+.itc-modal-btn-close:focus,
+.itc-modal-btn-close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.itc-modal-body {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.itc-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.3rem;
+  border-top: 1px solid #e9ecef;
+  border-bottom-right-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  height: 20px;
+  box-sizing: content-box;
+}
+
+/*Picture modal windows*/
+.o {
+  background-image: url(images/BIBLIOGRAPHY/The\ Wind-Up\ Bird\ Chronicle.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o2 {
+  background-image: url(images/BIBLIOGRAPHY/South\ of\ the\ Border\,\ West\ of\ the\ Sun.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o3 {
+  background-image: url(images/BIBLIOGRAPHY/Kafka\ on\ the\ Shore.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o4 {
+  background-image: url(images/BIBLIOGRAPHY/Hard-Boiled\ Wonderland\ and\ the\ End\ of\ the\ World.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o5 {
+  background-image: url(images/BIBLIOGRAPHY/Norwegian\ Wood.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o6 {
+  background-image: url(images/BIBLIOGRAPHY/A\ Wild\ Sheep\ Chase.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o7 {
+  background-image: url(images/BIBLIOGRAPHY/1Q84.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o8 {
+  background-image: url(images/BIBLIOGRAPHY/Killing\ Commendatore.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o9 {
+  background-image: url(images/BIBLIOGRAPHY/Dance\ Dance\ Dance.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+.o10 {
+  background-image: url(images/BIBLIOGRAPHY/After\ Dark.jpg);
+  background-size: 100% 100%; /*Размер фонового изображение (невзирая на его разрешение)*/
+  background-repeat: no-repeat; /*Не повторяет изображение когда размер не соответствует*/
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin-left: 10px;
+}
+
+/*Positioning text in a modal window*/
+.p {
+  padding: 80px; /*Отступы*/
+  height: 90%;
+  width: 100%;
+  text-align: start;
+}
+/*Block of text*/
+.a {
+  width: 50%;
+  height: 100%;
+}
+/*Title in modal window*/
+.n {
+  height: 5%;
+  width: 100%;
+  text-align: center;
+}
+/*Button in modal window*/
+.btnA {
+  display: inline-block;
+  background: #45bc76; /*Фон*/
+  color: #fff; /*Цвет текста*/
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 20px;
+  height: 120%;
+  box-sizing: content-box;
+}
+
+/*Bookshelf*/
+.boss {
+  display: flex;
+  justify-content: space-between;
+  height: 34%;
+}
+
+/*Main text*/
+.pop {
+  /*Позиция текста*/
+  display: flex;
+  height: 30%;
+  width: 100%;
+}
+
+.textbooks {
+  /*Текст*/
+  padding: 30px; /*Отступы*/
+  height: 90%;
+  width: 100%;
+  text-align: start;
+  font-size: 17px;
+}
+
+/*Footer*/
+.footer {
+  color: #fff;
+  text-align: center;
+  background-color: #000000;
+  height: 7%;
+}
+.logo-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  transition: all linear 0.5s;
+}
+.logo:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+}
+.logo1 {
+  width: 60px;
+  height: 40px;
+  transition: all linear 0.5s;
+  margin-right: 10px;
+}
+.logo1:hover {
+  animation: shake 0.5s;
+  transition: 1s linear;
+}
+/*Logo shaking animation*/
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.logoLink {
+  height: 7%;
+  width: auto;
+}
+p {
+  width: 100%;
+  height: 100%;
+}
+
+/*Footer text*/
+.textFooter1 {
+  color: #5f5c5a;
+  font-family: "Righteous"; /*Google шрифт*/
+  padding-top: 1%;
+  padding-left: 1%;
+  text-align: left;
+}
+.textFooter2 {
+  color: #5f5c5a;
+  font-family: "Righteous"; /*Google шрифт*/
+  padding-top: 1%;
+  padding-right: 1%;
+  text-align: right;
+}
+
+/*Site adaptation*/
+@media (max-width: 1200px) {
+  .p {
+    padding: calc(
+      20px + (80 - 20) * ((100vw - 320px) / (1200 - 320))
+    ); /*Отступ*/
+    height: 90%;
+    width: 100%;
+    text-align: start;
+  }
+  .itc-modal-content {
+    max-width: calc(400px + (800 - 200) * ((100vw - 320px) / (1200 - 320)));
+    max-height: calc(300px + (600 - 300) * ((100vw - 320px) / (1200 - 320)));
+    margin: 50px auto;
+  }
+  .all-box {
+    height: calc(34% + (68 - 34) * ((100vw - 320px) / (1200 - 320)));
+    width: calc(7% + (8 - 4) * ((100vw - 320px) / (1200 - 320)));
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 0;
+  }
+  .all-box {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+  }
+  .boss {
+    display: flex;
+    justify-content: space-between;
+    height: calc(17% + (34 - 17) * ((100vw - 320px) / (1200 - 320)));
+  }
+  .textbooks {
+    padding: calc(
+      15px + (30 - 15) * ((100vw - 320px) / (1200 - 320))
+    ); /*Отступ*/
+    height: 90%;
+    width: 100%;
+    text-align: start;
+    font-size: calc(9px + (17 - 9) * ((100vw - 320px) / (1200 - 320)));
+  }
+
+  .oneUp {
+    font-size: calc(60px + (80 - 60) * ((100vw - 320px) / (1200 - 320)));
+    color: #020202;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    text-shadow: 2px 2px 4px black; /*Тень текста*/
+  }
+}
